@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Tab Switching</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading-shadow">SELECT YOUR CHOICE</h1>
+    <div class="tabs">
+        <button class="tab-link" onclick="openCategory('Men')">Men</button>
+        <button class="tab-link" onclick="openCategory('Women')">Women</button>
+        <button class="tab-link" onclick="openCategory('Kids')">Kids</button>
+    </div>
+
+    <div id="Men" class="tab-content">
+    </div>
+
+    <div id="Women" class="tab-content" style="display:none;">
+    </div>
+
+    <div id="Kids" class="tab-content" style="display:none;">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
